@@ -1,0 +1,100 @@
+/* Navbar */
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Headings */
+.heading{
+    font-size: 1.6rem;
+}
+
+/* Gallery Images */
+.gallery img{
+    width: 270px;
+    height: 360px;
+}
+
+/* About Section */
+.about{
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+
+/* freedom Section */
+.freedom{
+    flex-direction: column;
+}
+.freedom h2{
+    text-align: center;
+}
+
+.freedom img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+
+
+/* african Section */
+.african{
+    flex-direction: column;
+}
+.african h2{
+    text-align: center;
+}
+
+.african img{
+    width: 200px;
+    height: 150px;
+    padding: 0px 15px;
+}
+
+
+/* Message box */
+#message{
+    width: 40%;
+    height: 200px;
+}
+
+/* Boxes */
+.box{
+    height: 150px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.box h2{
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.box p{
+    color: wheat;
+      font-size: .8rem;
+}
+/* mother african afro style section */
+.afro{
+    flex-direction: column;
+}
+.afro h2{
+    text-align: center;
+}
+.heading{
+    font-size: .6rem;
+}
+.gallery img{
+    width: 270px;
+    height: 360px;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+}   
+body{
+    margin: 123px;
+    background-image: url("fz.jpg");
+}
+h1{
+    text-align: center;
+    color: skyblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4.2rem;
+}
+p{
+    text-align: center;
+    color: skyblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.1rem;
+}
+p a{
+    color:chartreuse;
+}
+span{
+    color:chartreuse;
+}
+input{
+    background-color: skyblue;
+    color: black;
+  font-display: center;
+  display: flex;
+  width: 35%;
+  height: 42px;
+  justify-content: center;
+}
+input{
+  margin: 40px;
+  margin-left:430px;
+  height: 53px;
+  border-radius: 123px;
+  border-color: greenyellow;
+}
+.form-btn{
+    width: 128px;
+    align-items: center;
+    justify-content: center;
+    margin-left:590px;
+    padding: 12px;
+}
+.form-btn {
+    color: black;
+    font-size: 1.5rem;
+    background-color:skyblue;
+}

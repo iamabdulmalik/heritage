@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form action="insert.php" method="POST">
+        <table>
+            <tr>
+                <td> Name :</td>
+                <td><input type="text" name="username" required></td>
+            </tr>
+            <tr>
+               <td>password :</td>
+               <td><input type="password" name="password" required></td> 
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="gender" value="m" required>male
+                    <input type="radio" name="gender" value="f" required>female
+                </td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>phone no :</td>
+                <td>
+                    <select name="phoneCode" required>
+                        <option selected hidden value="">Select Code</option>
+                        <option value="NG+234">NG+234</option>
+                        <option value="US+978">US+978</option>
+                        <option value="979">979</option>
+                        <option value="973">973</option>
+                        <option value="972">972</option>
+                        <option value="974">974</option>
+                    </select>
+                    <input type="phone" name="phone" required>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit" class="form-btn"></td>
+            </tr>
+        </table>
+        <h1>sign up</h1>
+                         <span>already have accoun?</span><a href="login.php">login here</a>
+    </form>
+    
+</body>
+</html>

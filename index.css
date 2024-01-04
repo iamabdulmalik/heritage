@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 60px;
+    padding: 1%;
+    background-color: black;
+    background-position: center, center;
+}
+h1{
+    color: white;
+    font-size: 3.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 20px;
+    justify-content: center;
+}
+p{
+    color: white;
+    font-size: 1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+span{
+    color: blue;
+}
+span:hover{
+    color: brown;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    text-decoration: blink;
+}
+li a{
+    color: blue;
+    display: flex;
+    padding-left: 0%;
+    text-align: center;
+    justify-content: center;
+    font-size: 7.9rem;
+    font-style: italic;
+}
+li a:hover{
+    color: white;
+    cursor: pointer;
+    border-style: ridge;
+    border-radius: 34vh;
+    border-color: brown;
+}
+.box1{
+    width: 100%;
+    float: left;
+    background-image: url(red.JPG);
+    height: 420px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    background-position: center center;
+    border-radius: 5vh;
+}

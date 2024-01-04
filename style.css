@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:   200px;
+    display: flex;
+    padding-left: 488px;
+    background-color: black;
+    background-position: center right;
+    font-size: 1.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+ td{
+    display: flex;
+    margin: 6px;
+    padding: 29;
+    color: white;
+ }
+input{
+    padding: 5.9px;
+    width: 130%;
+    border-radius: 20px;
+    border-color: greenyellow
+}
+input:hover{
+    color: rgb(201, 112, 10);
+}
+.form-btn{ 
+    color: rgb(201, 112, 10);
+    border-color: white;
+    background-color: green;
+    width: 280;
+    padding: 2%;
+}
+.form-btn:hover{
+    color: aqua;
+}
+span{
+    padding: 1vh;
+    width: 220%;
+    color: white;
+}
+a{
+    color: rgb(201, 112, 10);
+}
+a:hover{
+    color: aqua;
+}

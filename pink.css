@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50PX;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: wheat;
+}
+.navbar ul li a:hover{
+    color: #00f953;
+    transition: .4s;
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: wheat;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('sj.JPG') no-repeat center center/cover;
+    height: 700px;
+    width: 100%;
+    z-index: -4;
+    opacity: .8;
+}
+.heading{
+    color: wheat;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    transform: scale(1,1.4);
+}
+span{
+   color: #00f953;
+   cursor:pointer;
+}
+
+/* HERITAGE SECTION */
+#heritage{
+    display: flex;
+    flex-direction: column;
+    background-color:bLack;
+}
+#heritage P{
+    color: wheat;
+    text-align: center;
+}
+span{
+    color:#00f953
+}
+#heritage{
+    margin: 0%;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+.gallery img:hover{
+    background-color: wheat;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/* mother african afro style section */
+#afro{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#afro h1{
+    color: wheat;
+    margin: 12px;
+    margin-left: 625px;
+    height: 40px;
+}
+#afro h2{
+    color: green;
+    font-size: 1.1rem;
+    text-align: center;
+
+}
+#afro .columns{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding-left: 6px;
+    margin:52px;
+    margin-left: 43px;
+}
+#afro.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+#afro .gallery img{
+        width: 120px;
+        height: 18vh;
+        padding: 2px;
+        margin: 2px;
+        margin-top: -139px;
+        margin-right: -303%;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+.box h2{
+    color: wheat;
+    font-size: 2rem;
+    margin-left: 200px;
+}
+.box p{
+    color: wheat;
+    font-size: 1.1rem;
+}
+.box p a{
+    color:#00f953;
+}
+
+
+/* how its Made Section */
+#made{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#made h1{
+    color: wheat;
+    margin: 6px;
+}
+.columns{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding-left: 60px;
+    margin-left: 423px;
+    
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px;
+}
+.box h2{
+    color: wheat;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.box p{
+    color: wheat;
+    font-size: 1.1rem;
+}
+.box p a{
+    color:#00f953;
+}
+
+/* African section*/
+#african{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-image: url("sf.JPG"); 
+    background-attachment: fixed;
+    background-position: center,center;
+    height: 100%;
+}
+#african h1{
+    color: black;
+    margin: 55px;
+}
+#african h2{
+    color: black;
+    text-align: center;
+}
+#african p{
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.african {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.african img{
+   width: 500px;
+   height: 400px;
+   padding: 0px 30px;
+}
+
+
+/* About Section */
+#about{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+#about h1{
+    color: wheat;
+    margin: 55px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about img{
+   width: 500px;
+   height: 400px;
+   padding: 0px 30px;
+}
+.name h2{
+    color: wheat;
+    font-size: 2rem;
+}
+.name p{
+    color: wheat;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#contact h1{
+    color: wheat;
+    margin: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 15px 20px;
+    margin: 15px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+}
+#message{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#submit{
+    padding: 15px 20px;
+    margin: 30px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+#submit:hover{
+    background-color: green;
+    color: wheat;
+    cursor:pointer;
+    transform: scale(1.1);
+}
